@@ -5,4 +5,5 @@ export interface RealState {
   description: string
   listingPrice: number
   isPublished: boolean
+  photoUrl: string
 }
