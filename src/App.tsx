@@ -1,8 +1,15 @@
+import Navbar from "./components/navbar"
+import Navigation from "./components/navigation"
 
 function App() {
   return (
     <div>
-      <h1>Lenshore Interview</h1>
+      <header>
+        <Navbar />
+      </header>
+      <main className="max-w-5xl mx-auto px-10 py-5">
+        <Navigation />
+      </main>
     </div>
   )
 }
