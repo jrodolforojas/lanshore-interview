@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+# Real Estate Lanshore Code Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Instructions
+[] The application will have a header bar with the buttons “New listing” and “Approve listings” on the main page to navigate among “Submit Listings” and “Publish Listings” pages respectively.
 
-Currently, two official plugins are available:
+[] The application will have a header bar with the button “Return” on the “Submit Listings” and “Publish Listings” pages to navigate back home.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[] On all pages a “Time on site” label should appear on the header bar, displaying in real time the seconds that the user has been on the website. (the ticker should be synchronized between all pages, meaning that its not the time spent on a particular subpage, but the overall time spent on the app)
 
-## Expanding the ESLint configuration
+[] Main page: On the main page only the published listings should be displayed.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[] Publish listings page: On this page all listings (published or unpublished) should be displayed, and the user should be able to toggle listings between the published/unpublished status.
 
-- Configure the top-level `parserOptions` property like this:
+[] Submit listings page: On this page the user can load a new listing, this listing should be set as “Unpublished” as default. The submit button should be disabled unless the entire form is filled out.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
