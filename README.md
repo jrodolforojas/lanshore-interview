@@ -39,3 +39,5 @@ Separate the project in small steps and completed it in order. So with that, I c
 `sonner` light-weight toaster for React.
 
 `react context for timer` because for me React Context you have to use in a small part of your code not to handle an entire context so for that I created a small context just for the timer.
+
+`gitmoji` Commits with emojis. It emoji represent something.
