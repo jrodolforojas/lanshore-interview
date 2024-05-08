@@ -1,6 +1,6 @@
 # Real Estate Lanshore Code Challenge
 ## Demo
-[Real State App | Rodolfo Rojas](rodolfo-lanshore-interview.vercel.app)
+[Real State App | Rodolfo Rojas](https://rodolfo-lanshore-interview.vercel.app/)
 
 ## How to run? 🤔
 Install dependencies (I use pnpm but you can use whatever you want, npm, bun, yarn,...).
