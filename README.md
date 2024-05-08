@@ -9,7 +9,7 @@
 
 [✅] Main page: On the main page only the published listings should be displayed.
 
-[] Publish listings page: On this page all listings (published or unpublished) should be displayed, and the user should be able to toggle listings between the published/unpublished status.
+[✅] Publish listings page: On this page all listings (published or unpublished) should be displayed, and the user should be able to toggle listings between the published/unpublished status.
 
-[] Submit listings page: On this page the user can load a new listing, this listing should be set as “Unpublished” as default. The submit button should be disabled unless the entire form is filled out.
+[✅] Submit listings page: On this page the user can load a new listing, this listing should be set as “Unpublished” as default. The submit button should be disabled unless the entire form is filled out.
 
