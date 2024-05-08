@@ -33,7 +33,8 @@ export default function SubmitListing() {
     const newRealState: RealState = {
       ...data,
       id: crypto.randomUUID(),
-      isPublished: false
+      isPublished: false,
+      photoUrl: data.url
     }
     dispatch(createRealState(newRealState))
     reset()
